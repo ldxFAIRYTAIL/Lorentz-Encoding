@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.env
+.venv/
+venv/
+
+# Data and experiment outputs
+data/*
+!data/example/
+!data/example/**
+output/
+runs/
+results/
+*.nii
+*.nii.gz
+*.csv
+!data/example/*.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+cufile.log
